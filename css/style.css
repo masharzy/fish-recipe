@@ -3,6 +3,7 @@
     padding: 0;
     outline: 0;
     font-family: cursive;
+    box-sizing: border-box;
 }
 
 .banner-section{
@@ -28,4 +29,65 @@
 }
 ul,ol {
     margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+/* ============== Review Page CSS =================*/
+
+
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+  }
+.fa {
+    font-size: 25px;
+}
+.checked {
+    color: orange;
+}
+.side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+}
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+}
+.right {
+    text-align: right;
+}
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+}
+.bar-5 {width: 80%; height: 18px; background-color: #0686f0; border-radius: 50px;}
+.bar-4 {width: 60%; height: 18px; background-color: #0686f0; border-radius: 50px;}
+.bar-3 {width: 40%; height: 18px; background-color: #0686f0; border-radius: 50px;}
+.bar-2 {width: 20%; height: 18px; background-color: #0686f0; border-radius: 50px;}
+.bar-1 {width: 10%; height: 18px; background-color: #0686f0; border-radius: 50px;}
+
+.user-reviews{
+    margin-top: 100px;
+}
+
+.user-reviews img{
+    width: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.user{
+    margin-top: 50px;
 }
